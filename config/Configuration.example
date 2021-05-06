@@ -1,0 +1,25 @@
+<?php
+
+namespace Config;
+
+class Configuration
+{
+    protected function default(): array
+    {
+        return [
+            "host" => 'YOUR_HOST',
+            "user" => 'YOUR_USER',
+            "password" => 'YOUR_DB_PASSWOR',
+            "database" => 'YOUR_DATABASE',
+        ];
+    }
+    public function test(): array
+    {
+        return [
+            "host" => 'YOUR_HOST',
+            "user" => 'YOUR_USER',
+            "password" => 'YOUR_DB_PASSWOR',
+            "database" => 'YOUR_DATABASE',
+        ];
+    }
+}
